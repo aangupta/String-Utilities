@@ -16,6 +16,7 @@ body {
   font-family: 'Crimson Text', serif;
   line-height: 1.4;
   margin: 0 2rem;
+  background-color: #f0f0f0;
 }
 
 header {
@@ -51,7 +52,7 @@ header a {
 }
 
 li a:hover {
-  background-color: #d9ad7c;
+  background-color: #585858;
   color: white;
 }
 
@@ -103,15 +104,12 @@ footer {
   justify-content: center;
   padding: 3rem;
   grid-gap: 3rem;
-  background-color: #fff2df;
-  border-radius: 2rem;
+  background-color: white;
 }
 
 .top-box-a {
   grid-area: top-box-a;
   padding: 3rem;
-  background-color: #a2836e;
-  border-radius: 2rem;
 }
 
 .boxes {
