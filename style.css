@@ -202,6 +202,20 @@ footer {
     font-family: var(--ff-header);
     background-color: var(--darkgrey);
   }
+
+    input[type=text],
+    select {
+      width: 70%;
+      height: 200px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: var(--ff-body);
+      overflow: scroll;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
