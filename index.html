@@ -4,57 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StringUtilities</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     
 </head>
 <body>
     <header>
-        <div>
+        <div class="hd-text">
+            <a style = "text-decoration: none;" href= "index.html" class = "title" > <h2>String Utilities App</h2></a>
         </div>
-        <div>
-             <ul>
-                 <li>
-                     <a href="./index.html">String Utilities</a>
-                     <a href="">HTML Escape</a>
-                     <a href="">XML Escapee</a>
-                     <a href="">Java and .Net Escape</a>
-                     <a href="">JavaScript Escape</a>
-                     <a href="">JSON Escape</a>
-                     <a href="">CSV Escape</a>
-                     <a href="">SQL Escape</a>
-                 </li>
-             </ul>
+        <div class="home">
+            <a style = "text-decoration: none;" href= "https://utilityappmain.netlify.app/index.html" class = "title" target="_blank" > <h2>Home</h2></a>
         </div>
             
      </header>
 
-     <section class="tools-container">
+     <section class="container">
         <div class ="showcase">
-            <h1> String Utilities</h1>
             <div class="input-section">
-                <input type ="text" id ="input-text" placeholder="Enter the text">
-                <input type ="text" id ="output-text" placeholder="Your result will appear here">
+                <input type ="text" id ="input-text" placeholder="Enter the text" required>
+                <input type ="text" id ="output-text" placeholder="Your result will appear here" readonly>
             </div>
             <div class="action-item">
-                <input type ="button" id ="tolowercase" value="LowerCase">
-                <input type ="button" id ="touppercase" value ="UpperCase">
-                <input type ="button" id ="charactercount"value="CharacterCount">
-                <input type ="button" id ="reverse" value="Reverse">
-                <input type ="button" id ="wordcount" value="WordCount">  
+                <input type ="button" id ="tolowercase" value="Lower Case" class ='btn'>
+                <input type ="button" id ="touppercase" value ="Upper Case" class = 'btn'>
+                <input type ="button" id ="charactercount"value="Character Count" class="btn">
+                <input type ="button" id ="reverse" value="Reverse" class="btn">
+                <input type="button" id="wordcount" value="Word Count" class="btn">
+                <input type ="button" id ="clear" value="Clear" class='btn'> 
+                <input type ="button" id ="copy" value="Copy" class="btn">  
             </div>
            
         </div>
-
-        <div class ="top-box-a">
-            <h2>Related Tools</h2>
-        </div>
-
      </section>
 
      
 
-    <footer>
-        <p>Created by &copy; Aanchal Gupta</p>
+     <footer>
+        <div class="footer-text">
+            <h4>Made with <span class="fa fa-heart"></span> by Aanchal</h4>
+        </div>
+        <div class="footer-icons">
+            <ul>
+                <li> <a  style = 'text-decoration: none;' href="https://github.com/aangupta"class="fa fa-github"target="_blank"></a></li>
+                <li> <a style = 'text-decoration: none;' href="https://www.linkedin.com/in/aanchal-gupta-3ab35bb1/" class="fa fa-linkedin" target="_blank"></a></li>
+                <li><a style = 'text-decoration: none;' href="https://twitter.com/aangupta5"class="fa fa-twitter"target="_blank"></a> </li>
+                <li> <a style = 'text-decoration: none;' href="mailto: aanchalgupta457@gmail.com" class="fa fa-envelope" target="_blank"></a> </li>
+            </ul>
+            
+        </div>
     </footer>
 
     <script src="script.js"></script>
